@@ -1,12 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {
-  BrowserRouter,
-  HashRouter,
-  Route,
-  Navigate,
-  Routes,
-} from "react-router-dom";
+import { HashRouter, Route, Navigate, Routes } from "react-router-dom";
 
 import AuthLayout from "./layouts/Auth";
 import AdminLayout from "./layouts/Admin";
@@ -14,7 +8,7 @@ import AdminLayout from "./layouts/Admin";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path={`auth/*`} element={<AuthLayout />} />
         <Route path={`admin/*`} element={<AdminLayout />} />
@@ -25,7 +19,7 @@ ReactDOM.render(
           element={<Navigate to="/admin/dashboard" replace />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
