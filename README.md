@@ -4,8 +4,6 @@
 
 ![Product Gif](https://i.ibb.co/7NXMZQS/Cover-Purity-Chakra-FREE-Thumbnail.png)
 
-Check all components <a href="https://demos.creative-tim.com/docs-purity-ui-dashboard/?ref=readme-pud" target="_blank">here</a>.
-
 #### Special thanks
 
 During the development of this dashboard, we have used many existing resources from awesome developers. We want to thank them for providing their tools open source:
@@ -28,7 +26,7 @@ Let us know your thoughts below. And good luck with development!
 Within the download you'll find the following directories and files:
 
 ```
-purity-ui-dashboard/
+rvc-dashboard/
 ├── .gitattributes
 ├── index.html
 ├── .gitigonore

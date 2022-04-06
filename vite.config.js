@@ -18,7 +18,7 @@ export default defineConfig(({ command, mode, ...rest }) => {
   };
   if (command === "build") {
     return {
-      base: process.env.BUILD_MODE === "gh-pages" ? "/RVC-Dashboard/" : "/",
+      base: process.env.BUILD_MODE === "gh-pages" ? "/rvc-dashboard/" : "/",
       build: {
         rollupOptions: {
           output: {

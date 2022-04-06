@@ -1,6 +1,6 @@
 {
-  "name": "purity-dashboard-react",
-  "version": "1.0.1",
+  "name": "rvc-dashboard",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^1.0.14",
@@ -43,7 +43,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "build:gh_pages": "cross-env BUILD_MODE=gh_pages vite build",
+    "deploy:gh-pages": "cross-env BUILD_MODE=gh-pages vite build && gh-pages -d dist",
     "deploy": "npm run build",
     "lint:check": "eslint . --ext=js,jsx;  exit 0",
     "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
