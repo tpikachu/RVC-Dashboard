@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <!--
+          manifest.json provides metadata used when your web app is added to the
+          homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+        -->
+    <link rel="manifest" href="/RVC-Dashboard/manifest.json" />
+    <link rel="shortcut icon" href="/RVC-Dashboard/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/RVC-Dashboard/apple-icon.png" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"
+    />
+    <script src="//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jvectormap/2.0.4/jquery-jvectormap.css"
+      type="text/css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"
+      type="text/css"
+      media="screen"
+    />
+    <!--     Fonts and icons     -->
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
+    <link rel="shortcut icon" type="image/x-icon" href="/RVC-Dashboard/favicon.ico" />
+    <title>Purity UI Dashboard by tPikachu</title>
+    <script type="module" crossorigin src="/RVC-Dashboard/assets/index.b86747d6.js"></script>
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/object-assign.9840bf7d.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react.7ded48a1.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/scheduler.36f34167.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-dom.8726e5f6.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/regenerator-runtime.583c0412.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/@babel.d4c7f82f.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/history.8c9dd0e1.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-router.78edfd73.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-router-dom.4101608d.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-is.aca5ba34.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/hoist-non-react-statics.28f10652.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/stylis.471761e6.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/@emotion.c45eda2e.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/lodash.mergewith.73595596.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/@popperjs.031b8b1a.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/tslib.2bd10da0.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/style-value-types.558ea47d.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/hey-listen.45400d5c.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/framesync.9f9facff.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/popmotion.7b246e2b.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/framer-motion.c01743df.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/focus-lock.9fb50670.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/use-sidecar.aa4a0fa4.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/use-callback-ref.38831812.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-clientside-effect.e38ba01c.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-focus-lock.772250f1.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/get-nonce.d5e269e9.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-style-singleton.55676bbd.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-remove-scroll-bar.eb26885f.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-remove-scroll.3a21e2e7.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/aria-hidden.d5dd0c65.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/@ctrl.afc734ac.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-fast-compare.6ca799e7.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/@chakra-ui.9b2c274d.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/prop-types.457396e8.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/apexcharts.71817ebd.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-apexcharts.12ed1503.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-icons.9f7e3a4c.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/loadjs.3cc34aa9.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-twitter-widgets.dc836d3b.js">
+    <link rel="modulepreload" href="/RVC-Dashboard/assets/react-github-btn.0d4249c5.js">
+  </head>
+  <body>
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <div id="root"></div>
+    
+    <!--
+          This HTML file is a template.
+          If you open it directly in the browser, you will see an empty page.
+
+          You can add webfonts, meta tags, or analytics to this file.
+          The build step will place the bundled scripts into the <body> tag.
+
+          To begin the development, run `npm start` or `yarn start`.
+          To create a production bundle, use `npm run build` or `yarn build`.
+        -->
+  </body>
+</html>
